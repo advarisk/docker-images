@@ -1,3 +1,3 @@
 FROM ubuntu:xenial
 
-RUN apt-get update && apt-get install -y flake8
+RUN apt-get update && apt-get install -y flake8 fabric git
